@@ -1,0 +1,21 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1729427706.json",
+	"mirror_portraits": false,
+	"name": "Tom",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 1,
+	"offset_y": 1,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100,
+	"theme": "theme-1729432602.cfg"
+}

@@ -1,0 +1,88 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://scenes/small_astro_complete.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/big_astro.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/ParallaxBackground.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scripts/main_menu.gd" type="Script" id=4]
+[ext_resource path="res://fonts/Minecraft.ttf" type="DynamicFontData" id=5]
+[ext_resource path="res://sounds/space.mp3" type="AudioStream" id=6]
+
+[sub_resource type="DynamicFont" id=1]
+size = 100
+outline_size = 4
+font_data = ExtResource( 5 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 40
+outline_size = 2
+outline_color = Color( 1, 0, 0, 1 )
+font_data = ExtResource( 5 )
+
+[node name="main_menu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 4 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+
+[node name="ParallaxBackground" parent="." instance=ExtResource( 3 )]
+
+[node name="big_astro" parent="." instance=ExtResource( 2 )]
+position = Vector2( 99, 91 )
+scale = Vector2( 4.1875, 4.1875 )
+
+[node name="Sprite" parent="." instance=ExtResource( 1 )]
+position = Vector2( 150, 220 )
+scale = Vector2( 3, 3 )
+
+[node name="big_astro2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 383, 523 )
+scale = Vector2( 4.1875, 4.1875 )
+
+[node name="Sprite2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 476, 180 )
+scale = Vector2( 3, 3 )
+
+[node name="big_astro3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 817, 161 )
+scale = Vector2( 4.1875, 4.1875 )
+
+[node name="Sprite3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 664, 472 )
+scale = Vector2( 3, 3 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = -6.0
+margin_top = 3.0
+margin_right = 1025.0
+margin_bottom = 597.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_outline_modulate = Color( 1, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "Asteroid Velocity"
+align = 1
+valign = 1
+
+[node name="Button" type="Button" parent="."]
+margin_left = 456.0
+margin_top = 347.0
+margin_right = 552.0
+margin_bottom = 393.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "Play"
+flat = true
+
+[node name="Button2" type="Button" parent="."]
+margin_left = 458.0
+margin_top = 389.0
+margin_right = 554.0
+margin_bottom = 435.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "Quit"
+flat = true
+
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_Button2_pressed"]

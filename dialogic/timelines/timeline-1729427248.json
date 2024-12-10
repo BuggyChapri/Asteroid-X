@@ -1,0 +1,31 @@
+{
+	"events": [
+		{
+			"character": "character-1729422929.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Dispatchs, this is Officer james. I'm reporting an incident at the local arcade. Two individuals, Tom and alex, experienced bizarre occurrences while playing \"Asteroi-X\""
+		},
+		{
+			"character": "character-1729422929.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Witnesses describe the scene as chaotic and terrifying. The players reported strange pop-ups on the screen: \"Malfunction detected, No escape, Die\" "
+		},
+		{
+			"character": "character-1729422929.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This isn't just a game anymore.... \"We can't escape\""
+		},
+		{
+			"change_scene": "res://scenes/main_menu.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1729427248.json",
+		"name": "story"
+	}
+}

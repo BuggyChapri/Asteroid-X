@@ -1,0 +1,33 @@
+{
+	"events": [
+		{
+			"character": "character-1729427706.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Some is waching you...."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 4,
+			"waiting_skippable": false
+		},
+		{
+			"character": "character-1729427706.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Something is coming...."
+		},
+		{
+			"character": "character-1729427706.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Prepare yourself"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1729497814.json",
+		"name": "boss"
+	}
+}

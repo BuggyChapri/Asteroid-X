@@ -1,0 +1,89 @@
+{
+	"events": [
+		{
+			"character": "character-1729427706.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hi can't see anything!"
+		},
+		{
+			"character": "character-1729427706.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Try to move with w,a,s,d"
+		},
+		{
+			"character": "character-1729427706.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I know you accidently figured out how to rotate the plane"
+		},
+		{
+			"character": "character-1729427706.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No, Damm try to move your cursor "
+		},
+		{
+			"character": "character-1729427706.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cool, Ohh i forgot to tell you that your ship has a prebuild light source"
+		},
+		{
+			"character": "character-1729427706.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Now If you find some astroid, ofcourse you will, You are in space"
+		},
+		{
+			"character": "character-1729427706.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Now try to click with left mouse button"
+		},
+		{
+			"character": "character-1729427706.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yes, you can shoot and Destroy asteroids, And also more,"
+		},
+		{
+			"character": "character-1729427706.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Now i want to tell you you can improve your ship by destroying asteroides"
+		},
+		{
+			"character": "character-1729427706.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Don't worry it's automatic"
+		},
+		{
+			"character": "character-1729427706.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Now enjoy th game stay safe"
+		},
+		{
+			"character": "character-1729427706.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And yaa don't try to crash your ship, It's expansive..... Good luck :)"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"emit_signal": " sp_enemy",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1729431913.json",
+		"name": "tut"
+	}
+}
