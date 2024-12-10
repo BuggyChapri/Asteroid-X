@@ -62,5 +62,3 @@ Originally made for **Lame Game Jam** (*btw got 7th place with a 3-star rating* 
 
 ### 🔧 **Addon Used**  
 - **Dialogic Version**: 1.5.1
-
-<iframe frameborder="0" src="https://itch.io/embed/3053493?border_width=0&amp;bg_color=000000&amp;fg_color=ffffff&amp;link_color=63c64d&amp;border_color=333333" width="550" height="165"><a href="https://dani-boii.itch.io/asteroid-velocity">Asteroid Velocity by Okey?</a></iframe>
